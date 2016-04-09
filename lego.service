@@ -4,5 +4,5 @@ Description=Let's Encrypt renewal
 [Service]
 Type=oneshot
 EnvironmentFile=/etc/conf.d/lego
-ExecStart=/root/go/bin/lego $OPTIONS renew
+ExecStart=/usr/bin/lego $OPTIONS renew
 ExecStartPost=/usr/sbin/systemctl reload $RELOAD_SERVICES

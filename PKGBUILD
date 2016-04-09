@@ -7,9 +7,10 @@ pkgdesc="Let's Encrypt client and ACME library written in Go"
 arch=('i686' 'x86_64' 'armv6h')
 url="https://github.com/xenolf/lego"
 license=('MIT')
+backup=('etc/conf.d/lego')
 
 source=('lego.service' 'lego.timer' 'lego.env')
-sha256sums=('edfdb149499f75213dcac99cd19d821e49fd2595a566ff861f6ead18003f1c99'
+sha256sums=('2d7aed161e2dc96a5e52236037339e76e7571a9611408996e86987dc9dce180d'
             '3b2b42db3665795186301b9c979a74a32bf14a6025629fcca388581450f5a598'
             '499a12400e02c379f755689439390aa903ce3f67716a1079ad388cb8cbfe6d68')
 sha256sums_i686=('a4e674df3873e556356abeba1d0bc60b4667dafd37529020710abd8e03ed661b')
