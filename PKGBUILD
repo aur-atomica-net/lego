@@ -1,7 +1,7 @@
 # Maintainer: Jason R. McNeil <jason@jasonrm.net>
 
 pkgname=lego
-pkgver=0.3.0
+pkgver=0.3.1
 pkgrel=1
 pkgdesc="Let's Encrypt client and ACME library written in Go"
 arch=('i686' 'x86_64' 'armv6h')
@@ -13,9 +13,9 @@ source=('lego.service' 'lego.timer' 'lego.env')
 sha256sums=('2d7aed161e2dc96a5e52236037339e76e7571a9611408996e86987dc9dce180d'
             '3b2b42db3665795186301b9c979a74a32bf14a6025629fcca388581450f5a598'
             '499a12400e02c379f755689439390aa903ce3f67716a1079ad388cb8cbfe6d68')
-sha256sums_i686=('a4e674df3873e556356abeba1d0bc60b4667dafd37529020710abd8e03ed661b')
-sha256sums_x86_64=('796ce5cb3553f301fcf95f60217f24549077629dfd2c07428171508eb8574350')
-sha256sums_armv6h=('51262840324d31eb0bf4c2a38cc5955130a6d073ce9658bd4c8113f935628833')
+sha256sums_i686=('c540641ada9e0c55ce2d4c4b51f95ce9d437898f5f3d9a1d105f4c728e4f50fa')
+sha256sums_x86_64=('cee9511099e9864968ac9c68f2f8d77fd927cda17957546d99faaf93f310538a')
+sha256sums_armv6h=('7c264b2280b11c04e75b71f8d798e8531bc4dfb16ed5ed1e9bbb936bc6a0b941')
 
 source_i686=("https://github.com/xenolf/lego/releases/download/v$pkgver/lego_linux_386.tar.xz")
 
